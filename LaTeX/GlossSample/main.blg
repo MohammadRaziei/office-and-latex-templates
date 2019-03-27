@@ -1,0 +1,32 @@
+;; This logfile was generated automatically by `xindy'
+;; at 07.06.2015  09:03:01
+;; Indexstyle: "fXNKtzmlSh", Rawindex: "z3xxPPhq8q", Output: "main.bls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "…—¡ …’‚‹˜¡" -> "Ù…"
+Letter-group: "š…‚ƒ" -> "Ú©"
+Letter-group: "ƒ ¡ž ‚Ž¡" -> "Ø¨"
+Letter-group: "„ž‡ " -> "Ù¾"
+Letter-group: "˜“‚¡ …‚ƒ–¡" -> "Ù"
+Letter-group: "˜“‚¡ ƒ‹‚¡" -> "Ù"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ƒ ¡ž ‚Ž¡" -> "Ø¨"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "„ž‡ " -> "Ù¾"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "˜“‚¡ ƒ‹‚¡" -> "Ù"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "š…‚ƒ" -> "Ú©"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "…—¡ …’‚‹˜¡" -> "Ù…"
