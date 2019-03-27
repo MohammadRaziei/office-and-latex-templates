@@ -1,0 +1,99 @@
+%copyright by Ali Mesforush
+%Update 10 ABAN 1395
+
+\documentclass[xcolor=dvipsnames, professionalfont]{beamer}
+
+\author{علی مس‌فروش}
+\title{آموزش ساخت اسلاید}
+\institute{دانشگاه صنعتی شاهرود}
+
+\usepackage{xcolor}
+\usefonttheme{serif}
+
+\usetheme{Warsaw}
+
+% in this section for example: (default, Bergen, Boadilla, Madrid, AnnArbor, CambridgUS, Pittsburgh,, Rochester, Without navigation bar If you want to have a navigation bar (Antibes, JuanLesPins, Montpellier, for branch form), (Berkeley, PaloAlto, Goettingen, Marburg, Hannover, for table of content side bar), (Berlin, Ilmenau, Dresden, Darmstadt, Frankfurt, Singapore, Szeged, for mini frame navigation), (  Copenhagen, Luebeck, Malmoe, Warsaw,  for section and subsection table)
+
+% در این قسمت می‌توانید رنگ متن را تغییر دهید
+%\setbeamercolor{normal text}{fg=blue}\usebeamercolor*{normal text}
+
+\usecolortheme[named=green]{structure}
+%%از بخش زیر برای تغییر زمینه اسلاید ستفاده کنید.                          
+%\usebackgroundtemplate%
+{%
+%	\includegraphics[width=\paperwidth,height=\paperheight]{me.jpg}%
+%}
+
+\useoutertheme{infolines}
+
+\usepackage{tikz}
+
+\usepackage{xepersian}
+\settextfont{Yas}
+\setdigitfont{Yas}
+
+
+\newtheorem{Def}{تعریف}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%به کدهای زیر دست نزنید%%%%%%%%%%%%%%%%%%%%
+\raggedleft
+\makeatletter
+\define@key{beamercolbox}{left}[0pt]{\def\beamer@colbox@rs{0pt}\def\beamer@colbox@ls{#1 plus1fill}}
+\makeatother
+\raggedleft
+
+\makeatletter
+\expandafter\let\csname beamer@@tmpop@itemize item@default\endcsname\relax
+\expandafter\let\csname beamer@@tmpop@itemize subitem@default\endcsname\relax
+\expandafter\let\csname beamer@@tmpop@itemize subsubitem@default\endcsname\relax
+
+\defbeamertemplate*{itemize item}{default}{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+\defbeamertemplate*{itemize subitem}{default}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+\defbeamertemplate*{itemize subsubitem}{default}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleleft$}}
+
+\bidi@patchcmd{\@listi}{\leftmargin}{\rightmargin}{}{}
+\let\@listI\@listi
+\bidi@patchcmd{\@listii}{\leftmargin}{\rightmargin}{}{}
+\bidi@patchcmd{\@listiii}{\leftmargin}{\rightmargin}{}{}
+\bidi@patchcmd{\beamer@enum@}{\raggedright}{\raggedleft}{}{}
+\bidi@patchcmd{\@@description}{\raggedright}{\raggedleft}{}{}
+\bidi@patchcmd{\@@description}{\leftmargin}{\rightmargin}{}{}
+
+\renewcommand{\itemize}[1][]{%
+	\beamer@ifempty{#1}{}{\def\beamer@defaultospec{#1}}%
+	\ifnum \@itemdepth >2\relax\@toodeep\else
+	\advance\@itemdepth\@ne
+	\beamer@computepref\@itemdepth% sets \beameritemnestingprefix
+	\usebeamerfont{itemize/enumerate \beameritemnestingprefix body}%
+	\usebeamercolor[fg]{itemize/enumerate \beameritemnestingprefix body}%
+	\usebeamertemplate{itemize/enumerate \beameritemnestingprefix body begin}%
+	\list
+	{\usebeamertemplate{itemize \beameritemnestingprefix item}}
+	{\def\makelabel##1{%
+			{%
+				\hss\llap{{%
+						\usebeamerfont*{itemize \beameritemnestingprefix item}%
+						\usebeamercolor[fg]{itemize \beameritemnestingprefix item}##1}}%
+			}%
+		}%
+	}
+	\fi%
+	\beamer@cramped%
+	\raggedleft%
+	\beamer@firstlineitemizeunskip%
+}
+\makeatother
+\raggedleft
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\frame{\maketitle}
+
+\begin{frame}
+
+
+\end{frame}
+\end{document}
+
+
+
