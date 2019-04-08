@@ -1,0 +1,27 @@
+\documentclass[draft]{article}
+\usepackage{color}
+\usepackage{ptext}
+\usepackage[computeautoilg=on]{xepersian}
+\settextfont{Yas}
+
+
+
+\definecolor{BoxColor}{rgb}{0.9, 0.9, 0.98}
+\newbox\mycolorbox
+\newenvironment{shadedtext}{\bigskip%
+	\setbox\mycolorbox\vbox\bgroup
+	\hsize=\dimexpr\textwidth-2\fboxsep\relax}{%
+	\egroup
+	\loop
+	\ifdim\ht\mycolorbox>\dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax
+	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax}%
+	\eject
+	\repeat
+	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \ht\mycolorbox}\bigskip}
+\begin{document}
+	\ptext[1]
+	\begin{shadedtext}
+		\ptext[1-100]
+	\end{shadedtext}
+	\ptext[1]
+\end{document}

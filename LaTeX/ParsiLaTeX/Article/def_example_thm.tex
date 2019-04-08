@@ -1,0 +1,118 @@
+\documentclass{beamer}
+\usepackage{ptext}
+\usefonttheme{serif}
+\usepackage{xepersian}
+\settextfont{Yas}
+\title{یک اسلاید نمونه}
+\subtitle{زیرعنوان اسلاید}
+\author{نام نویسنده}
+\raggedleft
+\makeatletter
+\renewenvironment{beamercolorbox}[2][]{%
+	\begingroup%
+	\def\beamer@colbox@coladd{0pt}%
+	\def\beamer@vmode{\leavevmode}%
+	\setkeys{beamercolbox}{%
+		wd=\textwidth,ht={},dp={},%
+		rightskip=0pt,leftskip=0pt plus1fil,%
+		sep=0pt,colsep=0pt,colsep*=0pt,%
+		shadow=false,rounded=false,ignorebg=false}%
+	\setkeys{beamercolbox}{#1}%
+	\ifbeamercolorempty[bg]{#2}{\@tempswafalse}{\@tempswatrue}%
+	\ifbeamer@colbox@ignorebg\@tempswafalse\fi%
+	\def\beamer@colbox@color{#2}%
+	\hsize=\beamer@colbox@wd%
+	\setbox\beamer@tempbox=\hbox\bgroup\vbox\bgroup%
+	\leftskip=\beamer@colbox@ls%
+	\advance\leftskip by\beamer@colbox@sep%
+	\rightskip=\beamer@colbox@rs%
+	\advance\rightskip by\beamer@colbox@sep%
+	\ifbeamer@colbox@ignorebg%
+	\colorlet{beamer@temp@color}{bg}%
+	\usebeamercolor[fg]{#2}%
+	\colorlet{bg}{beamer@temp@color}%
+	\else%
+	\usebeamercolor[fg]{#2}%
+	\fi%
+	\if@tempswa%
+	\advance\leftskip by\beamer@colbox@colsep%
+	\advance\rightskip by\beamer@colbox@colsep%
+	\ifdim\beamer@colbox@colsep=0pt\else\vskip\beamer@colbox@colsep\fi%
+	\ifdim\beamer@colbox@colseps=0pt\else\vskip\beamer@colbox@colseps\fi%
+	\fi%
+	\ifdim\beamer@colbox@sep=0pt\else\vskip\beamer@colbox@sep\fi%
+	\beamer@vmode\ignorespaces}{%
+	\ifdim\beamer@colbox@sep=0pt\else\vskip\beamer@colbox@sep\fi%
+	\if@tempswa\ifdim\beamer@colbox@colsep=0pt\else\vskip\beamer@colbox@colsep\fi\fi%
+	\if@tempswa\ifdim\beamer@colbox@colseps=0pt\else\vskip\beamer@colbox@colseps\fi\fi%
+	\egroup\egroup%
+	\wd\beamer@tempbox=\hsize%
+	\@tempdima=\wd\beamer@tempbox%
+	\ifx\beamer@colbox@ht\@empty%
+	\else%
+	\ht\beamer@tempbox=\beamer@colbox@ht%
+	\fi%
+	\ifx\beamer@colbox@dp\@empty%
+	\else%
+	\dp\beamer@tempbox=\beamer@colbox@dp%
+	\fi%
+	\ifbeamer@colbox@rounded%
+	\if@tempswa%
+	\begin{beamerboxesrounded}[%
+		shadow=\beamer@colbox@shadow,%
+		lower=\beamer@colbox@color,%
+		upper=normal text,%
+		width=\beamer@colbox@wd]{}%
+		\box\beamer@tempbox%
+	\end{beamerboxesrounded}%
+	\else%
+	\ifdim\@tempdima>\textwidth%
+	\setbox\beamer@tempbox=\hbox to\textwidth{\hss\box\beamer@tempbox\hss}%
+	\fi%
+	\box\beamer@tempbox%
+	\fi%
+	\else%
+	\if@tempswa\setbox\beamer@tempbox=\hbox{\vbox{%
+			\usebeamercolor{\beamer@colbox@color}%
+			\advance\hsize by \beamer@colbox@colseps\relax%
+			\advance\hsize by \beamer@colbox@colseps\relax%
+			\hskip-\beamer@colbox@colseps%
+			\fboxsep=0pt\colorbox{bg}{%
+				\hskip\beamer@colbox@colseps%
+				\hbox{\box\beamer@tempbox}%
+				\hskip\beamer@colbox@colseps%
+			}%
+			\hskip-\beamer@colbox@colseps%
+	}}\fi%
+	\ifdim\@tempdima>\textwidth%
+	\setbox\beamer@tempbox=\hbox to\textwidth{\hskip0pt minus\beamer@leftmargin\relax\box\beamer@tempbox\hskip0pt minus\beamer@rightmargin\relax}%
+	\fi%
+	\box\beamer@tempbox%
+	\fi%
+	\endgroup%
+}
+\makeatother
+\providetranslation{Theorem}{قضیه}
+\providetranslation{Definition}{تعریف}
+\providetranslation{Example}{مثال}
+\begin{document}
+	
+	\begin{frame}
+	\ptext[1]
+	\begin{definition}
+		این یک تعریف است
+	\end{definition}
+	\begin{theorem}
+		این یک قضیه است
+	\end{theorem}
+	
+	\begin{proof}
+		این یک آثبات است.
+	\end{proof}
+	
+	\begin{example}
+		این یک مثال است
+	\end{example}
+\end{frame}
+
+\end{document}
