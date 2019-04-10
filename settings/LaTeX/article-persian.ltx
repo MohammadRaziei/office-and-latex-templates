@@ -1,0 +1,107 @@
+\usepackage{hyperref}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{amsthm}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%   shadedtext   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{color}
+
+%	%
+%	%\definecolor{BoxColor}{rgb}{0.9, 0.9, 0.98}
+%	%\newbox\mycolorbox
+%	%\newenvironment{shadedtext}{\bigskip%
+%	%	\setbox\mycolorbox\vbox\bgroup
+%	%	\hsize=\dimexpr\textwidth-2\fboxsep\relax}{%
+%	%	\egroup
+%	%	\loop
+%	%	\ifdim\ht\mycolorbox>\dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax
+%	%	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax}%
+%	%	\eject
+%	%	\repeat
+%	%	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \ht\mycolorbox}\bigskip}
+%	
+%	
+%	%\def\temp{#1}\ifx\temp\empty
+%	%<EMPTY>%
+%	%\else
+%	%<NON EMPTY>%
+%	%\fi
+
+
+
+\definecolor{BoxColor}{rgb}{0.9, 0.9, 0.98}
+\newbox\mycolorbox
+\newenvironment{shadedtext}{\bigskip%
+	\setbox\mycolorbox\vbox\bgroup
+	\hsize=\dimexpr\textwidth-2\fboxsep\relax}{%
+	\egroup
+	\loop
+	\ifdim\ht\mycolorbox>\dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax
+	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax}%
+	\eject
+	\repeat
+	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \ht\mycolorbox}\bigskip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    insert code    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{listings}
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+%
+\lstset{frame=tb,
+	language=python,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+%%%% USAGE :
+%\begin{latin}
+%	\noindent code c++:
+%	\lstinputlisting[language=c++]{source.cpp}
+%\end{latin}
+
+\newcommand{\code}[3]{
+	\begin{latin}
+		\noindent #3
+		\lstinputlisting[language=#1]{#2}
+	\end{latin}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{thm}{قضیه}[section]
+\newtheorem{Def}{تعریف}[section]
+%	\newtheorem{test}{تمرین}[chapter]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   math commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\dd}{\, \mathbf{d} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[computeautoilg=on]{xepersian}
+\settextfont{Yas}
+\setdigitfont{Yas}
+
+\defpersianfont\nast{IranNastaliq}
+\defpersianfont\sols{XB Sols}
+\defpersianfont\naz{B Nazanin}
+\defpersianfont\yas{Yas}
+
+

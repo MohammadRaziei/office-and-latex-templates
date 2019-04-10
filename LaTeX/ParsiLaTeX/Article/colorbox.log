@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  10 APR 2019 23:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  11 APR 2019 01:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,18 +824,6 @@ neskip found in font on input line 44.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 44.
 \AtBeginShipoutBox=\box42
-
-! Undefined control sequence.
-l.45 ^^Ia\spase
-               \.a
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no ̇ in font Yas/OT:script=arab;language=FAR;mappin
-g=parsidigits;!
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 49.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
@@ -844,7 +832,7 @@ Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 49.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 49.
-[1
+ [1
 
 ]
 Package xepersian Info: character with height+depth greater than current baseli
@@ -963,7 +951,8 @@ Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 49.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 49.
- [14]
+
+[14]
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 49.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
@@ -981,13 +970,12 @@ Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 51.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 51.
- [16]
-(./colorbox.aux) ) 
+ [16] (./colorbox.aux) ) 
 Here is how much of TeX's memory you used:
- 13041 strings out of 492970
- 289301 string characters out of 6137299
+ 13040 strings out of 492970
+ 289294 string characters out of 6137299
  548722 words of memory out of 5000000
- 16951 multiletter control sequences out of 15000+600000
+ 16950 multiletter control sequences out of 15000+600000
  530392 words of font info for 37 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,5n,71p,10446b,264s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+
+
+
+\input{article-persian.ltx}
+%\usepackage{xepersian}
+\usepackage{ptext}
+
+\title{تست کارکرد صحیح فایل} 
+\author{محمد رضیئی}
+%\date{20 شهریور 1397}
+
+
+
+\begin{document}
+\maketitle
+
+\section{shadedtext}
+\ptext[1]
+\begin{shadedtext}
+	\ptext[1-10]
+\end{shadedtext}
+\ptext[1]
+
+\section{code}
+	نمونه وارد کردن یک کد:
+\begin{latin}
+\noindent code c++:
+\lstinputlisting[language=c++]{source.cpp}
+\end{latin}	
+
+
+نمونه وارد کردن یک کد دیگر:
+\begin{latin}
+\noindent code python(default):
+\lstinputlisting{source.py}
+\end{latin}
+کد یک خطی
+\code{python}{source.py}{python by $\backslash$code}
+
+
+
+
+\end{document}
