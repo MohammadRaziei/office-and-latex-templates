@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  11 APR 2019 01:23
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  11 APR 2019 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,9 +152,65 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\mycolorbox=\box27
+
+(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count100
+\lst@gtempboxa=\box28
+\lst@token=\toks15
+\lst@length=\count101
+\lst@currlwidth=\dimen107
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen108
+\lst@width=\dimen109
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen110
+
+(c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
+\lst@framebox=\box29
+)
+(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks16
+\thm@bodyfont=\toks17
+\thm@headfont=\toks18
+\thm@notefont=\toks19
+\thm@headpunct=\toks20
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks21
+)
+\c@thm=\count108
+\c@Def=\count109
+
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -162,51 +218,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
-\ex@=\dimen107
+\@emptytoks=\toks22
+\ex@=\dimen111
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen108
+\pmbraise@=\dimen112
 )
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count100
+\inf@bad=\count110
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count101
-\leftroot@=\count102
+\uproot@=\count111
+\leftroot@=\count112
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count103
-\DOTSCASE@=\count104
+\classnum@=\count113
+\DOTSCASE@=\count114
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen109
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count105
-\c@MaxMatrixCols=\count106
+\macc@depth=\count115
+\c@MaxMatrixCols=\count116
 \dotsspace@=\muskip11
-\c@parentequation=\count107
-\dspbrk@lvl=\count108
-\tag@help=\toks16
-\row@=\count109
-\column@=\count110
-\maxfields@=\count111
-\andhelp@=\toks17
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
-\@envbody=\toks18
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks19
+\c@parentequation=\count117
+\dspbrk@lvl=\count118
+\tag@help=\toks23
+\row@=\count119
+\column@=\count120
+\maxfields@=\count121
+\andhelp@=\toks24
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks25
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -220,62 +276,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks20
-\thm@bodyfont=\toks21
-\thm@headfont=\toks22
-\thm@notefont=\toks23
-\thm@headpunct=\toks24
-\thm@preskip=\skip47
-\thm@postskip=\skip48
-\thm@headsep=\skip49
-\dth@everypar=\toks25
-)
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 147.
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
-))
-\mycolorbox=\box29
-
-(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count112
-\lst@gtempboxa=\box30
-\lst@token=\toks26
-\lst@length=\count113
-\lst@currlwidth=\dimen116
-\lst@column=\count114
-\lst@pos=\count115
-\lst@lostspace=\dimen117
-\lst@width=\dimen118
-\lst@newlines=\count116
-\lst@lineno=\count117
-\lst@maxwidth=\dimen119
-
-(c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count118
-\lst@skipnumbers=\count119
-\lst@framebox=\box31
-)
-(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
-))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
-
-(c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-\c@thm=\count120
-\c@Def=\count121
-
 (c:/texlive/2018/texmf-dist/tex/xelatex/xepersian/xepersian.sty
 Package: xepersian 2018/01/28 v21.1 Persian typesetting in XeLaTeX
 
@@ -1020,29 +1020,29 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 100.
+neskip found in font on input line 104.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 100.
+e 104.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 100.
+neskip found in font on input line 104.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 100.
+e 104.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 100.
+neskip found in font on input line 104.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 100.
+e 104.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 100.
+neskip found in font on input line 104.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 100.
+e 104.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 100.
+neskip found in font on input line 104.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 100.
+e 104.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 100.
+neskip found in font on input line 104.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 100.
+e 104.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1065,7 +1065,7 @@ e 100.
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'Yas' on input line 100.
+as'Yas' on input line 104.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
@@ -1094,9 +1094,9 @@ as'Yas' on input line 100.
 . Could not resolve font "IranNastaliq/I" (it probably doesn't exist).
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 102.
+neskip found in font on input line 106.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 102.
+e 106.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1111,29 +1111,29 @@ e 102.
 .................................................
 \g__fontspec_family_XBSols_int=\count330
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 107.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 107.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 107.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 107.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 107.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 107.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 107.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 107.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 107.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 107.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 107.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 107.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1168,21 +1168,21 @@ e 103.
 . Could not resolve font "B Nazanin/I" (it probably doesn't exist).
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 104.
+neskip found in font on input line 108.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 104.
+e 108.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 104.
+neskip found in font on input line 108.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 104.
+e 108.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 104.
+neskip found in font on input line 108.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 104.
+e 108.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 104.
+neskip found in font on input line 108.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 104.
+e 108.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1334,29 +1334,29 @@ neskip found in font on input line 8.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 8.
  [4])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 44.
+neskip found in font on input line 43.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 44.
+e 43.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 44.
+neskip found in font on input line 43.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 44.
+e 43.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (./article_test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `article_test.out' has not changed.
 (rerunfilecheck)             Checksum: F71D8AA9991D28329692816141BDCDA6.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 22470 strings out of 492970
- 422878 string characters out of 6137299
- 630300 words of memory out of 5000000
- 26200 multiletter control sequences out of 15000+600000
+ 22467 strings out of 492970
+ 422844 string characters out of 6137299
+ 630296 words of memory out of 5000000
+ 26197 multiletter control sequences out of 15000+600000
  538260 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,8n,100p,10478b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
