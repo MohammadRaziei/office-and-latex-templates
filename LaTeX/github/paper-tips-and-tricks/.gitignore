@@ -1,0 +1,11 @@
+.*.swp
+.DS_Store
+*.bbl
+*.bib
+*.blg
+*.brf
+*.aux
+*.log
+*.out
+*.pyc
+*.synctex.gz
