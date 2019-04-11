@@ -120,8 +120,10 @@
 }
 \newcommand{\hlinelong}[1][0.4pt]{\noindent\makebox[\linewidth]{\rule{\paperwidth}{#1}}}
 %%%% try : \hlinelong, \hlineshort, \hlineshort[1cm]
-%%--------------- box --------------
-%\newcommand{\boxtext}[1]{$\boxed{\mbox{#1}}$}
+%%--------------- The End --------------
+\newcommand{\theendpersian}[1][پایان]{
+	\begin{center} \vspace{1.5cm}\huge #1\end{center}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[computeautoilg=on]{xepersian}
