@@ -121,10 +121,12 @@
 \newcommand{\hlinelong}[1][0.4pt]{\noindent\makebox[\linewidth]{\rule{\paperwidth}{#1}}}
 %%%% try : \hlinelong, \hlineshort, \hlineshort[1cm]
 %%--------------- The End --------------
-\newcommand{\theendpersian}[1][پایان]{
+\newcommand{\theend}[1][پایان]{
 	\begin{center} \vspace{1.5cm}\huge #1\end{center}
 }
-
+\newcommand{\theendlatin}[1][The End]{
+	\begin{center} \vspace{1.5cm}\huge #1\end{center}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[computeautoilg=on]{xepersian}
 \settextfont{Yas}

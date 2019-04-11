@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 00:17
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,29 +1020,29 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 131.
+neskip found in font on input line 133.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 131.
+e 133.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 131.
+neskip found in font on input line 133.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 131.
+e 133.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 131.
+neskip found in font on input line 133.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 131.
+e 133.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 131.
+neskip found in font on input line 133.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 131.
+e 133.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 131.
+neskip found in font on input line 133.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 131.
+e 133.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 131.
+neskip found in font on input line 133.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 131.
+e 133.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1065,7 +1065,7 @@ e 131.
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'Yas' on input line 131.
+as'Yas' on input line 133.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
@@ -1094,9 +1094,9 @@ as'Yas' on input line 131.
 . Could not resolve font "IranNastaliq/I" (it probably doesn't exist).
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 133.
+neskip found in font on input line 135.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 133.
+e 135.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1111,29 +1111,29 @@ e 133.
 .................................................
 \g__fontspec_family_XBSols_int=\count330
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 134.
+neskip found in font on input line 136.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 134.
+e 136.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 134.
+neskip found in font on input line 136.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 134.
+e 136.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 134.
+neskip found in font on input line 136.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 134.
+e 136.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 134.
+neskip found in font on input line 136.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 134.
+e 136.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 134.
+neskip found in font on input line 136.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 134.
+e 136.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 134.
+neskip found in font on input line 136.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 134.
+e 136.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1168,21 +1168,21 @@ e 134.
 . Could not resolve font "B Nazanin/I" (it probably doesn't exist).
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 135.
+neskip found in font on input line 137.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 135.
+e 137.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 135.
+neskip found in font on input line 137.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 135.
+e 137.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 135.
+neskip found in font on input line 137.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 135.
+e 137.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 135.
+neskip found in font on input line 137.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 135.
+e 137.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1360,22 +1360,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 (./article_test.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
-
-
-Package rerunfilecheck Warning: File `article_test.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `article_test.out':
-(rerunfilecheck)             Before: 7F9F3BE873C396462FF633281D74E165
-(rerunfilecheck)             After:  F71D8AA9991D28329692816141BDCDA6.
+Package rerunfilecheck Info: File `article_test.out' has not changed.
+(rerunfilecheck)             Checksum: F71D8AA9991D28329692816141BDCDA6.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 22522 strings out of 492970
- 423596 string characters out of 6137299
- 630431 words of memory out of 5000000
- 26249 multiletter control sequences out of 15000+600000
+ 22524 strings out of 492970
+ 423605 string characters out of 6137299
+ 630481 words of memory out of 5000000
+ 26251 multiletter control sequences out of 15000+600000
  538268 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,8n,100p,10474b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
