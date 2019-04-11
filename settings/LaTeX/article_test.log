@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 01:41
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2252,41 +2252,41 @@ neskip found in font on input line 70.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 70.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 82.
+neskip found in font on input line 83.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 82.
+e 83.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 88.
+neskip found in font on input line 89.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 88.
+e 89.
 
-Overfull \hbox (24.79999pt too wide) in paragraph at lines 88--89
+Overfull \hbox (24.79999pt too wide) in paragraph at lines 89--90
 [][]$[][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 [][]
  []
 
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 93.
+neskip found in font on input line 94.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 93.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+e 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 93.
+neskip found in font on input line 94.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 93.
+e 94.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 93.
+neskip found in font on input line 94.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 93.
+e 94.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./article_test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `article_test.out' has not changed.
 (rerunfilecheck)             Checksum: 548DAE5054F990287ECFA9F510005421.
  ) 
