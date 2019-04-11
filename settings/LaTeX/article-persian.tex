@@ -83,7 +83,20 @@
 		\lstinputlisting[language=#2]{#1}
 	\end{latin}
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Boxtext     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% select and press ctrl+T to uncomment
+%\usepackage{collectbox}
+%\makeatletter
+%\newcommand{\boxtext}{%
+%		\collectbox{%
+%		\setlength{\fboxsep}{1pt}%
+%		\fbox{\BOXCONTENT}%
+%	}%
+%}
+%\makeatother
 
+%%%%
+\newcommand{\textbox}[1]{$\boxed{\mbox{\rl{#1}}}$} %% used \rl for xepersian
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsthm}
@@ -97,6 +110,17 @@
 \usepackage{amsmath,amsfonts,amssymb}
 
 \newcommand{\dd}{\, \mathbf{d} }
+\newcommand{\prd}{\triangleright\!\!\triangleleft\,}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   usefull commands   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%--------------- Line -------------
+\newcommand{\hlineshort}[1][\textwidth]{
+	\noindent\rule{#1}{0.4pt}%
+}
+\newcommand{\hlinelong}[1][0.4pt]{\noindent\makebox[\linewidth]{\rule{\paperwidth}{#1}}}
+%%%% try : \hlinelong, \hlineshort, \hlineshort[1cm]
+%%--------------- box --------------
+%\newcommand{\boxtext}[1]{$\boxed{\mbox{#1}}$}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[computeautoilg=on]{xepersian}

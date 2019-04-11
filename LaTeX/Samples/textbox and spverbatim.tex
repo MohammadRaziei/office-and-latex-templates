@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{lipsum}
+%%%%
+\usepackage{spverbatim}
+
+\usepackage{fancyvrb}
+\usepackage{fvextra}
+
+
+
+\begin{document}
+\lipsum[1]
+
+\medskip
+
+\noindent\fcolorbox{red}{yellow}{%
+    \minipage[t]{\dimexpr0.48\linewidth-2\fboxsep-2\fboxrule\relax}
+        \lipsum[2]
+    \endminipage}\hfill
+    \fcolorbox{red}{yellow}{%
+    \minipage[t]{\dimexpr0.48\linewidth-2\fboxsep-2\fboxrule\relax}
+        \lipsum[3]
+    \endminipage}
+
+\medskip
+\lipsum[4]
+
+\begin{Verbatim}[breaklines=true, breakanywhere=true]
+
+
+
+
+Notes:
+You can adjust the thickness of border and padding of
+\fcolorbox{<border-color>}{<background-color>}{<contents>} by setting \fboxrule=<value><unit> and \fboxsep=<value><unit>, respectively. Put the setting before invoking \fcolorbox{<border-color>}{<background-color>} {<contents>}. 
+For example: \fboxrule=1pt and \fboxsep=5pt.
+Use t, c and b options to align the base line of the most top row, the center row and the most bottom row with the surrounding baseline.
+\end{Verbatim}
+
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+\begin{spverbatim}
+Notes:
+You can adjust the thickness of border and padding of
+ \fcolorbox{<border-color>}{<background-color>}{<contents>} by setting \fboxrule=<value><unit> and \fboxsep=<value><unit>, respectively. Put the setting before invoking \fcolorbox{<border-color>}{<background-color>} {<contents>}. 
+For example: \fboxrule=1pt and \fboxsep=5pt.
+Use t, c and b options to align the base line of the most top row, the center row and the most bottom row with the surrounding baseline.
+\end{spverbatim}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+The following is printed verbatim, but with line breaks:
+\begin{Verbatim}[breaklines=true]
+This is a very long line that will need to be broken into pieces otherwise it will run into and out of the margins
+\end{Verbatim}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+Alternatively, line breaks can be put anywhere, not just at white space:
+\begin{Verbatim}[breaklines=true, breakanywhere=true]
+Thisisaverylonglinethatwillneedtobebrokenintopiecesotherwiseitwillrunintoandoutofthemargins
+\end{Verbatim}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+
+\end{document}

@@ -1,0 +1,60 @@
+\documentclass{book}
+\title{Introduction to Latex}
+\author{Me}
+\date{}
+\usepackage{framed}
+
+\usepackage[svgnames, dvipsnames]{xcolor}
+\usepackage{exsheets}
+\SetupExSheets{counter-within={chapter}}
+\newenvironment{myquestion}
+{\question[name={myExercise}]}
+{\endquestion}
+
+\newlength{\currentparindent}
+\newenvironment{myset}
+{\setlength{\currentparindent}{\parindent}
+\setlength{\FrameRule}{0.8pt}
+\par
+%\centering
+\framed
+\setlength{\parindent}{\currentparindent}\vspace*{-\FrameSep}
+\noindent\hspace*{-\dimexpr\FrameSep+\FrameRule}\rlap{\rule[-0.8ex]{\dimexpr\linewidth+2\FrameSep+2\FrameRule}{0.1ex}}
+\hspace*{\dimexpr2\FrameRule-\fontdimen2\font}
+\colorbox{Gainsboro!60!Lavender}{%
+\makebox[\dimexpr\textwidth+\FrameSep+\fontdimen2\font][l]%
+{\hspace{\dimexpr\FrameSep+2\FrameRule-\fontdimen2\font} Exercise \thesubsection}
+}%
+{\vspace{-2ex}}
+}
+{
+\endframed
+}
+
+\begin{document}
+
+\chapter{first}
+\section{start}
+\subsection{install}
+\begin{myset}
+  \begin{myquestion}
+    Review the documentation for your compiler and determine what file naming convention it uses. Compile and Run the main program from page 2.
+  \end{myquestion}
+\end{myset}
+\begin{myset}
+	\begin{myquestion}
+		Review the documentation for your compiler and determine what file naming convention it uses. Compile and Run the main program from page 2.
+	\end{myquestion}
+	\begin{myquestion}
+	Review the documentation for your compiler and determine what file naming convention it uses. Compile and Run the main program from page 2.
+\end{myquestion}
+\end{myset}
+
+\subsection{install}
+\begin{myset}
+	\begin{myquestion}
+		Review the documentation for your compiler and determine what file naming convention it uses. Compile and Run the main program from page 2.
+	\end{myquestion}
+\end{myset}
+
+\end{document} 

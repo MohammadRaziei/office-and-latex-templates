@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\newcommand{\hlinelong}[1][0.4pt]{\noindent\makebox[\linewidth]{\rule{\paperwidth}{#1}}}
+%\usepackage{xparse}
+%\makeatletter
+%\def\hlineshort{%
+%	\@ifnextchar[%
+%	{\hlineshort@i}
+%	{\hlineshort@i[\textwidth]}%<default-for-1>
+%}
+%\def\hlineshort@i[#1]{%
+%	\@ifnextchar[%
+%	{\hlineshort@ii{#1}}
+%	{\hlineshort@ii{#1}[[0.4pt]}%<default-for-2>
+%}
+%\def\hlineshort@ii[#1][#2]{
+%	\noindent\rule{#1}{#2}	% Do stuff
+%}
+%\makeatother
+
+
+%\makeatletter
+%\def\mycommand{%
+%	\@ifnextchar[%
+%	{\mycommand@i}
+%	{\mycommand@i[<default-for-1>]}%
+%}
+%\def\mycommand@i[#1]{%
+%	\@ifnextchar[%
+%	{\mycommand@ii{#1}}
+%	{\mycommand@ii{#1}[<default-for-2>]}%
+%}
+%\def\mycommand@ii#1[#2]#3{%
+%	% Do stuff
+%}
+%\makeatother
+
+%\usepackage{twoopt}
+
+
+\newcommand{\hlineshort}[1][\textwidth]{
+		\noindent\rule{#1}{0.4pt}%
+	}
+
+%\makeatletter
+%\newcommand{\twoopt}[1][Def1]{%
+%	\@ifnextchar[{\twoopt@i[{#1}]}{\twoopt@i[{#1}][{Def2}]}%
+%}
+%
+%\def\twoopt@i[#1][#2]#3{%
+%	% Put your code here.
+%	% You can refer to the arguments as #1 through #3.
+%}
+%\makeatother
+
+%	\makeatletter
+%	\newcommand{\twoopt}[1][\textwidth]{%
+%		\@ifnextchar[{\twoopt@i[{#1}]}{\twoopt@i[{#1}][{Def2}]}%
+%	}
+%	\def\twoopt@i[#1][#2]{%
+%		% Put your code here.
+%		% You can refer to the arguments as #1 through #3.
+%			\noindent\rule{#1}{#2}	% Do stuff
+%	}
+%	\makeatother
+
+
+%\newcommand{\foo}[2][def]{Mandatory: #2; optional: #1}
+
+\begin{document}
+
+
+
+
+Below is a Line spanning the entire width of the page
+
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+
+Below is a 2cm long line
+
+\noindent\rule{2cm}{0.4pt}
+
+Below is a 4cm long line
+
+\noindent\rule{4cm}{0.4pt}
+
+Below is a 8cm long line
+
+\noindent\rule{8cm}{0.4pt}
+
+%\hlinelong
+\hlineshort
+
+\end{document}
+

@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage{color}
+\definecolor{myblue}{rgb}{.8, .8, 1}
+
+\usepackage{amsmath}
+\usepackage{empheq}
+
+\newlength\mytemplen
+\newsavebox\mytempbox
+
+\makeatletter
+\newcommand\mybluebox{%
+    \@ifnextchar[%]
+       {\@mybluebox}%
+       {\@mybluebox[0pt]}}
+
+\def\@mybluebox[#1]{%
+    \@ifnextchar[%]
+       {\@@mybluebox[#1]}%
+       {\@@mybluebox[#1][0pt]}}
+
+\def\@@mybluebox[#1][#2]#3{
+    \sbox\mytempbox{#3}%
+    \mytemplen\ht\mytempbox
+    \advance\mytemplen #1\relax
+    \ht\mytempbox\mytemplen
+    \mytemplen\dp\mytempbox
+    \advance\mytemplen #2\relax
+    \dp\mytempbox\mytemplen
+    \colorbox{myblue}{\hspace{1em}\usebox{\mytempbox}\hspace{1em}}}
+
+\makeatother
+
+\begin{document}
+\begin{empheq}[box={\mybluebox[5pt]}]{equation*}
+    c_i = \sum_j A_{ij}
+\end{empheq}
+
+\begin{empheq}[box={\mybluebox[2pt][2pt]}]{equation*}
+    c_i = \langle\psi|\phi\rangle
+\end{empheq}
+\end{document}

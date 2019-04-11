@@ -1,0 +1,14 @@
+\documentclass{article}
+\pagestyle{empty}
+\usepackage{amsmath}
+
+\usepackage{empheq}
+\usepackage{xcolor}
+\definecolor{lightgreen}{HTML}{90EE90}
+\newcommand{\boxedeq}[2]{\begin{empheq}[box={\fboxsep=6pt\fbox}]{align}\label{#1}#2\end{empheq}}
+\newcommand{\coloredeq}[2]{\begin{empheq}[box=\colorbox{lightgreen}]{align}\label{#1}#2\end{empheq}}
+
+\begin{document}
+ \boxedeq{eq:first}{c_i = \sum_jA_{ij}}
+ \coloredeq{eq:second}{c_i = \langle\psi|\phi\rangle}
+\end{document}
