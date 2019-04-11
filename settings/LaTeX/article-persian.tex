@@ -95,9 +95,29 @@
 %}
 %\makeatother
 
+%\newcommand{\foo}[2][def]{Mandatory: #2; optional: #1}
 %%%%
-\newcommand{\textbox}[1]{$\boxed{\mbox{\rl{#1}}}$} %% used \rl for xepersian
-\newcommand{\textboxlatin}[1]{$\boxed{\mbox{#1}}$} %% used for latin
+\usepackage{xcolor}
+\newcommand{\textbox}[2][.]{
+	$
+	\colorlet{oldcolor}{.}
+	{\color{#1}
+	\boxed{\color{oldcolor}\mbox{{\rl{#2}}}}
+	}
+	$
+} %% used \rl for xepersian with color
+
+\newcommand{\textboxlatin}[2][.]{
+	$
+	\colorlet{oldcolor}{.}
+	{\color{#1}
+	\boxed{\color{oldcolor}\mbox{#2}} 
+	}
+	$
+} %% used for latin with color
+
+%\newcommand{\textbox}[1]{$\boxed{\mbox{\rl{#1}}}$} %% used \rl for xepersian
+%\newcommand{\textboxlatin}[1]{$\boxed{\mbox{#1}}$} %% used for latin
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsthm}
@@ -109,6 +129,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   math commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath,amsfonts,amssymb}
+%\usepackage{mathtools}
 
 \newcommand{\dd}{\, \mathbf{d} }
 \newcommand{\prd}{\triangleright\!\!\triangleleft\,}

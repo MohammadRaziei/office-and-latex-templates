@@ -1,5 +1,6 @@
 \documentclass[12pt]{article}
 
+\usepackage{spverbatim,fvextra}
 
 
 \input{article-persian}
@@ -53,12 +54,38 @@ g.drawString("Hello, world!", 65, 95);
 \end{lstlisting}
 \end{latin}
 
+\section{verbatim} % \usepackage{spverbatim,fancyvrb,fvextra} or \usepackage{spverbatim,fvextra}
+
+\begin{latin}	
+\begin{Verbatim}[breaklines=true, breakanywhere=true]
+Notes:
+You can adjust the thickness of border and padding of
+\fcolorbox{<border-color>}{<background-color>}{<contents>} by setting \fboxrule=<value><unit> and \fboxsep=<value><unit>, respectively. Put the setting before invoking \fcolorbox{<border-color>}{<background-color>} {<contents>}. 
+For example: \fboxrule=1pt and \fboxsep=5pt.
+Use t, c and b options to align the base line of the most top row, the center row and the most bottom row with the surrounding baseline.
+\end{Verbatim}
+\end{latin}
+
+
+\section{line and box}
 \hlineshort
 
 
+
+\colorbox{yellow}{text}
+
+%{\color{red}
+%	\textboxlatin{hi}
+%}
+%hi
+
 \textbox{ برای مثال \lr{This is textbox} $\sum f(x)$ }
 
-یک کادر نمونه 
+یک کادر نمونه در بالا آمده است.
+
+کارد زیر با استفاده از vbox نوشته شده است.
+
+\textbox[green]{\vbox{\noindent\ptext[1]}}
 
 
 \hlinelong
