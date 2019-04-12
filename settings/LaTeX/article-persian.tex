@@ -32,7 +32,22 @@
 
 
 
+%\definecolor{BoxColor}{rgb}{0.9, 0.9, 0.98}
+%\newbox\mycolorbox
+%\newenvironment{shadedtext}{\bigskip%
+%	\setbox\mycolorbox\vbox\bgroup
+%	\hsize=\dimexpr\textwidth-2\fboxsep\relax}{%
+%	\egroup
+%	\loop
+%	\ifdim\ht\mycolorbox>\dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax
+%	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax}%
+%	\eject
+%	\repeat
+%	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \ht\mycolorbox}\bigskip}
+
 \definecolor{BoxColor}{rgb}{0.9, 0.9, 0.98}
+\newcommand{\enableshadedtext}[1][BoxColor]
+{
 \newbox\mycolorbox
 \newenvironment{shadedtext}{\bigskip%
 	\setbox\mycolorbox\vbox\bgroup
@@ -40,12 +55,32 @@
 	\egroup
 	\loop
 	\ifdim\ht\mycolorbox>\dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax
-	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax}%
+	\noindent\colorbox{#1}{\vsplit\mycolorbox to \dimexpr\textheight-\pagetotal-2\fboxsep-2\fboxrule\relax}%
 	\eject
 	\repeat
-	\noindent\colorbox{BoxColor}{\vsplit\mycolorbox to \ht\mycolorbox}\bigskip}
+	\noindent\colorbox{#1}{\vsplit\mycolorbox to \ht\mycolorbox}\bigskip}
+}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    insert code    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Page color
+\definecolor{cream}{rgb}{1.0, 0.99, 0.82}
+\definecolor{floralwhite}{rgb}{1.0, 0.98, 0.94}
+\definecolor{ghostwhite}{rgb}{0.97, 0.97, 1.0}
+\definecolor{honeydew}{rgb}{0.94, 1.0, 0.94}
+\definecolor{isabelline}{rgb}{0.96, 0.94, 0.93}
+\definecolor{magnolia}{rgb}{0.97, 0.96, 1.0}
+\definecolor{mintcream}{rgb}{0.96, 1.0, 0.98}
+\definecolor{oldlace}{rgb}{0.99, 0.96, 0.9}
+\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
+
+\definecolor{whitegray}{rgb}{0.98, 0.98, 0.98}
+
+\usepackage{afterpage,pagecolor}
+\newcommand{\currentpagecolor}[1][whitegray]{
+\newpagecolor{#1}\afterpage{\restorepagecolor}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    insert code    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{listings}
 
@@ -83,7 +118,7 @@
 		\lstinputlisting[language=#2]{#1}
 	\end{latin}
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Boxtext     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Boxtext     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% select and press ctrl+T to uncomment
 %\usepackage{collectbox}
 %\makeatletter
@@ -119,7 +154,7 @@
 %\newcommand{\textbox}[1]{$\boxed{\mbox{\rl{#1}}}$} %% used \rl for xepersian
 %\newcommand{\textboxlatin}[1]{$\boxed{\mbox{#1}}$} %% used for latin
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsthm}
 
 \newtheorem{thm}{قضیه}[section]
@@ -134,7 +169,7 @@
 \newcommand{\dd}{\, \mathbf{d} }
 \newcommand{\prd}{\triangleright\!\!\triangleleft\,}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   usefull commands   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   usefull commands   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%--------------- Line -------------
 \newcommand{\hlineshort}[1][\textwidth]{
 	\noindent\rule{#1}{0.4pt}%
@@ -148,7 +183,13 @@
 \newcommand{\theendlatin}[1][The End]{
 	\begin{center} \vspace{1.5cm}\huge #1\end{center}
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%--------------- New Line -------------
+\newcommand{\newlinef}{
+%	\vspace{0.8cm}
+\vspace\baselineskip
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[computeautoilg=on]{xepersian}
 \settextfont{Yas}
 \setdigitfont{Yas}
