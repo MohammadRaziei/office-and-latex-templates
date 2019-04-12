@@ -6,7 +6,7 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%   shadedtext   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%   shadedtext   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{color}
 
 %	%
@@ -118,7 +118,7 @@
 		\lstinputlisting[language=#2]{#1}
 	\end{latin}
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Boxtext     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Boxtext     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% select and press ctrl+T to uncomment
 %\usepackage{collectbox}
 %\makeatletter
@@ -154,7 +154,7 @@
 %\newcommand{\textbox}[1]{$\boxed{\mbox{\rl{#1}}}$} %% used \rl for xepersian
 %\newcommand{\textboxlatin}[1]{$\boxed{\mbox{#1}}$} %% used for latin
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   def, thm , test   %%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsthm}
 
 \newtheorem{thm}{قضیه}[section]
@@ -162,7 +162,7 @@
 %	\newtheorem{test}{تمرین}[chapter]
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   math commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   math commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath,amsfonts,amssymb}
 %\usepackage{mathtools}
 
@@ -188,8 +188,12 @@
 %	\vspace{0.8cm}
 \vspace\baselineskip
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  REPEAT commands    %%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multido}
+\newcommand{\Repeat}{\multido{\i=1+1}}
+%%------------- new linews ------------
+\newcommand{\newlines}[1][1]{\Repeat{#1}{\vspace\baselineskip}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  xepersian and fonts %%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[computeautoilg=on]{xepersian}
 \settextfont{Yas}
 \setdigitfont{Yas}

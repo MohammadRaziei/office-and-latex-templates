@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 22:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,6 +475,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(c:/texlive/2018/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(c:/texlive/2018/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count144
+\multidocount=\count145
+\multido@stuff=\toks29
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
 (c:/texlive/2018/texmf-dist/tex/xelatex/xepersian/xepersian.sty
 Package: xepersian 2018/01/28 v21.1 Persian typesetting in XeLaTeX
 
@@ -485,18 +497,18 @@ Package: expl3 2018/03/05 L3 programming layer (loader)
 
 (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count144
-\l_tmpa_int=\count145
-\l_tmpb_int=\count146
-\g_tmpa_int=\count147
-\g_tmpb_int=\count148
-\g__intarray_font_int=\count149
-\g__prg_map_int=\count150
-\c_log_iow=\count151
-\l_iow_line_count_int=\count152
-\l__iow_line_target_int=\count153
-\l__iow_one_indent_int=\count154
-\l__iow_indent_int=\count155
+\c_max_int=\count146
+\l_tmpa_int=\count147
+\l_tmpb_int=\count148
+\g_tmpa_int=\count149
+\g_tmpb_int=\count150
+\g__intarray_font_int=\count151
+\g__prg_map_int=\count152
+\c_log_iow=\count153
+\l_iow_line_count_int=\count154
+\l__iow_line_target_int=\count155
+\l__iow_one_indent_int=\count156
+\l__iow_indent_int=\count157
 \c_zero_dim=\dimen130
 \c_max_dim=\dimen131
 \l_tmpa_dim=\dimen132
@@ -515,72 +527,72 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count156
-\c__fp_leading_shift_int=\count157
-\c__fp_middle_shift_int=\count158
-\c__fp_trailing_shift_int=\count159
-\c__fp_big_leading_shift_int=\count160
-\c__fp_big_middle_shift_int=\count161
-\c__fp_big_trailing_shift_int=\count162
-\c__fp_Bigg_leading_shift_int=\count163
-\c__fp_Bigg_middle_shift_int=\count164
-\c__fp_Bigg_trailing_shift_int=\count165
-\l__sort_length_int=\count166
-\l__sort_min_int=\count167
-\l__sort_top_int=\count168
-\l__sort_max_int=\count169
-\l__sort_true_max_int=\count170
-\l__sort_block_int=\count171
-\l__sort_begin_int=\count172
-\l__sort_end_int=\count173
-\l__sort_A_int=\count174
-\l__sort_B_int=\count175
-\l__sort_C_int=\count176
-\l__tl_build_start_index_int=\count177
-\l__tl_build_index_int=\count178
-\l__tl_analysis_normal_int=\count179
-\l__tl_analysis_index_int=\count180
-\l__tl_analysis_nesting_int=\count181
-\l__tl_analysis_type_int=\count182
-\l__regex_internal_a_int=\count183
-\l__regex_internal_b_int=\count184
-\l__regex_internal_c_int=\count185
-\l__regex_balance_int=\count186
-\l__regex_group_level_int=\count187
-\l__regex_mode_int=\count188
-\c__regex_cs_in_class_mode_int=\count189
-\c__regex_cs_mode_int=\count190
-\l__regex_catcodes_int=\count191
-\l__regex_default_catcodes_int=\count192
-\c__regex_catcode_L_int=\count193
-\c__regex_catcode_O_int=\count194
-\c__regex_catcode_A_int=\count195
-\c__regex_all_catcodes_int=\count196
-\l__regex_show_lines_int=\count197
-\l__regex_min_state_int=\count198
-\l__regex_max_state_int=\count199
-\l__regex_left_state_int=\count266
-\l__regex_right_state_int=\count267
-\l__regex_capturing_group_int=\count268
-\l__regex_min_pos_int=\count269
-\l__regex_max_pos_int=\count270
-\l__regex_curr_pos_int=\count271
-\l__regex_start_pos_int=\count272
-\l__regex_success_pos_int=\count273
-\l__regex_curr_char_int=\count274
-\l__regex_curr_catcode_int=\count275
-\l__regex_last_char_int=\count276
-\l__regex_case_changed_char_int=\count277
-\l__regex_curr_state_int=\count278
-\l__regex_step_int=\count279
-\l__regex_min_active_int=\count280
-\l__regex_max_active_int=\count281
-\l__regex_replacement_csnames_int=\count282
-\l__regex_match_count_int=\count283
-\l__regex_min_submatch_int=\count284
-\l__regex_submatch_int=\count285
-\l__regex_zeroth_submatch_int=\count286
-\g__regex_trace_regex_int=\count287
+\l_keys_choice_int=\count158
+\c__fp_leading_shift_int=\count159
+\c__fp_middle_shift_int=\count160
+\c__fp_trailing_shift_int=\count161
+\c__fp_big_leading_shift_int=\count162
+\c__fp_big_middle_shift_int=\count163
+\c__fp_big_trailing_shift_int=\count164
+\c__fp_Bigg_leading_shift_int=\count165
+\c__fp_Bigg_middle_shift_int=\count166
+\c__fp_Bigg_trailing_shift_int=\count167
+\l__sort_length_int=\count168
+\l__sort_min_int=\count169
+\l__sort_top_int=\count170
+\l__sort_max_int=\count171
+\l__sort_true_max_int=\count172
+\l__sort_block_int=\count173
+\l__sort_begin_int=\count174
+\l__sort_end_int=\count175
+\l__sort_A_int=\count176
+\l__sort_B_int=\count177
+\l__sort_C_int=\count178
+\l__tl_build_start_index_int=\count179
+\l__tl_build_index_int=\count180
+\l__tl_analysis_normal_int=\count181
+\l__tl_analysis_index_int=\count182
+\l__tl_analysis_nesting_int=\count183
+\l__tl_analysis_type_int=\count184
+\l__regex_internal_a_int=\count185
+\l__regex_internal_b_int=\count186
+\l__regex_internal_c_int=\count187
+\l__regex_balance_int=\count188
+\l__regex_group_level_int=\count189
+\l__regex_mode_int=\count190
+\c__regex_cs_in_class_mode_int=\count191
+\c__regex_cs_mode_int=\count192
+\l__regex_catcodes_int=\count193
+\l__regex_default_catcodes_int=\count194
+\c__regex_catcode_L_int=\count195
+\c__regex_catcode_O_int=\count196
+\c__regex_catcode_A_int=\count197
+\c__regex_all_catcodes_int=\count198
+\l__regex_show_lines_int=\count199
+\l__regex_min_state_int=\count266
+\l__regex_max_state_int=\count267
+\l__regex_left_state_int=\count268
+\l__regex_right_state_int=\count269
+\l__regex_capturing_group_int=\count270
+\l__regex_min_pos_int=\count271
+\l__regex_max_pos_int=\count272
+\l__regex_curr_pos_int=\count273
+\l__regex_start_pos_int=\count274
+\l__regex_success_pos_int=\count275
+\l__regex_curr_char_int=\count276
+\l__regex_curr_catcode_int=\count277
+\l__regex_last_char_int=\count278
+\l__regex_case_changed_char_int=\count279
+\l__regex_curr_state_int=\count280
+\l__regex_step_int=\count281
+\l__regex_min_active_int=\count282
+\l__regex_max_active_int=\count283
+\l__regex_replacement_csnames_int=\count284
+\l__regex_match_count_int=\count285
+\l__regex_min_submatch_int=\count286
+\l__regex_submatch_int=\count287
+\l__regex_zeroth_submatch_int=\count288
+\g__regex_trace_regex_int=\count289
 \c_empty_box=\box39
 \l_tmpa_box=\box40
 \l_tmpb_box=\box41
@@ -624,28 +636,28 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 )
 (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count288
+\g__driver_image_int=\count290
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count289
-\g__xparse_grabber_int=\count290
-\l__xparse_m_args_int=\count291
-\l__xparse_mandatory_args_int=\count292
-\l__xparse_v_nesting_int=\count293
+\l__xparse_current_arg_int=\count291
+\g__xparse_grabber_int=\count292
+\l__xparse_m_args_int=\count293
+\l__xparse_mandatory_args_int=\count294
+\l__xparse_v_nesting_int=\count295
 )
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
 
 (c:/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count294
-\l__fontspec_language_int=\count295
-\l__fontspec_strnum_int=\count296
-\l__fontspec_tmp_int=\count297
-\l__fontspec_em_int=\count298
-\l__fontspec_emdef_int=\count299
-\l__fontspec_strong_int=\count300
-\l__fontspec_strongdef_int=\count301
+\l__fontspec_script_int=\count296
+\l__fontspec_language_int=\count297
+\l__fontspec_strnum_int=\count298
+\l__fontspec_tmp_int=\count299
+\l__fontspec_em_int=\count300
+\l__fontspec_emdef_int=\count301
+\l__fontspec_strong_int=\count302
+\l__fontspec_strongdef_int=\count303
 \l__fontspec_tmpa_dim=\dimen161
 \l__fontspec_tmpb_dim=\dimen162
 \l__fontspec_tmpc_dim=\dimen163
@@ -850,43 +862,43 @@ LaTeX Info: Redefining \- on input line 4015.
 ))
 (c:/texlive/2018/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count302
-\XePersian@y=\count303
-\XePersian@m=\count304
-\XePersian@d=\count305
-\XePersian@latini=\count306
-\XePersian@persiani=\count307
-\XePersian@latinii=\count308
-\XePersian@persianii=\count309
-\XePersian@latiniii=\count310
-\XePersian@persianiii=\count311
-\XePersian@latiniv=\count312
-\XePersian@persianiv=\count313
-\XePersian@latinv=\count314
-\XePersian@persianv=\count315
-\XePersian@latinvi=\count316
-\XePersian@persianvi=\count317
-\XePersian@latinvii=\count318
-\XePersian@persianvii=\count319
-\XePersian@latinviii=\count320
-\XePersian@persianviii=\count321
-\XePersian@latinix=\count322
-\XePersian@persianix=\count323
-\XePersian@latinx=\count324
-\XePersian@persianx=\count325
-\XePersian@latinxi=\count326
-\XePersian@persianxi=\count327
-\XePersian@latinxii=\count328
-\XePersian@persianxii=\count329
-\XePersian@persianxiii=\count330
-\XePersian@temp=\count331
-\XePersian@temptwo=\count332
-\XePersian@tempthree=\count333
-\XePersian@yModHundred=\count334
-\XePersian@thirtytwo=\count335
-\XePersian@dn=\count336
-\XePersian@sn=\count337
-\XePersian@mminusone=\count338
+\XePersian@i=\count304
+\XePersian@y=\count305
+\XePersian@m=\count306
+\XePersian@d=\count307
+\XePersian@latini=\count308
+\XePersian@persiani=\count309
+\XePersian@latinii=\count310
+\XePersian@persianii=\count311
+\XePersian@latiniii=\count312
+\XePersian@persianiii=\count313
+\XePersian@latiniv=\count314
+\XePersian@persianiv=\count315
+\XePersian@latinv=\count316
+\XePersian@persianv=\count317
+\XePersian@latinvi=\count318
+\XePersian@persianvi=\count319
+\XePersian@latinvii=\count320
+\XePersian@persianvii=\count321
+\XePersian@latinviii=\count322
+\XePersian@persianviii=\count323
+\XePersian@latinix=\count324
+\XePersian@persianix=\count325
+\XePersian@latinx=\count326
+\XePersian@persianx=\count327
+\XePersian@latinxi=\count328
+\XePersian@persianxi=\count329
+\XePersian@latinxii=\count330
+\XePersian@persianxii=\count331
+\XePersian@persianxiii=\count332
+\XePersian@temp=\count333
+\XePersian@temptwo=\count334
+\XePersian@tempthree=\count335
+\XePersian@yModHundred=\count336
+\XePersian@thirtytwo=\count337
+\XePersian@dn=\count338
+\XePersian@sn=\count339
+\XePersian@mminusone=\count340
 )
 (c:/texlive/2018/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty
 Package: xepersian-mathsdigitspec 2018/01/01 v1.1.5 Unicode Persian maths digit
@@ -965,18 +977,18 @@ and LuaTeX
 )
 (c:/texlive/2018/texmf-dist/tex/xelatex/bidi/biditools.sty
 Package: biditools 2018/02/22 v1.4 Programming tools for bidi package
-\@bidi@envbody=\toks29
-\@bidi@emptytoks=\toks30
-\bidi@tempcountb=\count339
-\bidi@temptoksa=\toks31
-\bidi@temptoksb=\toks32
-\bidi@dummies=\count340
-\bidi@are@these@correct=\toks33
-\bidi@toks@lista=\toks34
-\bidi@toks@listb=\toks35
-\bidi@stack@length=\count341
-\bidi@empty@stack=\toks36
-\bidi@looprepeat@depth=\count342
+\@bidi@envbody=\toks30
+\@bidi@emptytoks=\toks31
+\bidi@tempcountb=\count341
+\bidi@temptoksa=\toks32
+\bidi@temptoksb=\toks33
+\bidi@dummies=\count342
+\bidi@are@these@correct=\toks34
+\bidi@toks@lista=\toks35
+\bidi@toks@listb=\toks36
+\bidi@stack@length=\count343
+\bidi@empty@stack=\toks37
+\bidi@looprepeat@depth=\count344
 )
 (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
@@ -987,7 +999,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count343
+\c@abspage=\count345
 Package zref Info: New property: abspage on input line 62.
 )
 (c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -995,10 +1007,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks37
-\XKV@tempa@toks=\toks38
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
 )
-\XKV@depth=\count344
+\XKV@depth=\count346
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
@@ -1006,14 +1018,14 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 (c:/texlive/2018/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2018/02/22 v1.3.3 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks39
-\bidi@column@check@number=\count345
+\bidi@n@everypar=\toks40
+\bidi@column@check@number=\count347
 
 (c:/texlive/2018/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count346
-\footdir@toks=\toks40
+\c@footdir@label=\count348
+\footdir@toks=\toks41
 )
 (c:/texlive/2018/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
 File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
@@ -1058,7 +1070,7 @@ kage for XeTeX engine
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count347
+\bidi@digits=\count349
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -1144,7 +1156,7 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 . 
 . Defining command \setiranicfont with sig. 'O{}mO{}' on line 409.
 .................................................
-\xepersian@tcl=\count348
+\xepersian@tcl=\count350
 \xepersian@ilg=\dimen164
 \xepersian@strutilg=\dimen165
 (c:/texlive/2018/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
@@ -1167,7 +1179,7 @@ ckage
 File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
 ass
 )
-\g__fontspec_family_lmroman10-regular_int=\count349
+\g__fontspec_family_lmroman10-regular_int=\count351
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1206,7 +1218,7 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
 )
-\g__fontspec_family_Yas_int=\count350
+\g__fontspec_family_Yas_int=\count352
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1229,29 +1241,29 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 195.
+neskip found in font on input line 199.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 195.
+e 199.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 195.
+neskip found in font on input line 199.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 195.
+e 199.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 195.
+neskip found in font on input line 199.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 195.
+e 199.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 195.
+neskip found in font on input line 199.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 195.
+e 199.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 195.
+neskip found in font on input line 199.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 195.
+e 199.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 195.
+neskip found in font on input line 199.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 195.
+e 199.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1274,7 +1286,7 @@ e 195.
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'Yas' on input line 195.
+as'Yas' on input line 199.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
@@ -1286,7 +1298,7 @@ as'Yas' on input line 195.
 * Language 'Parsi' not available for font 'IranNastaliq' with script 'Parsi'.
 *  'Default' language used instead.
 *************************************************
-\g__fontspec_family_IranNastaliq_int=\count351
+\g__fontspec_family_IranNastaliq_int=\count353
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1303,9 +1315,9 @@ as'Yas' on input line 195.
 . Could not resolve font "IranNastaliq/I" (it probably doesn't exist).
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 197.
+neskip found in font on input line 201.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 197.
+e 201.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1318,31 +1330,31 @@ e 197.
 . <->"IranNastaliq/OT:script=arab;language=DFLT;mapping=parsidigits;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-\g__fontspec_family_XBSols_int=\count352
+\g__fontspec_family_XBSols_int=\count354
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 198.
+neskip found in font on input line 202.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 198.
+e 202.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 198.
+neskip found in font on input line 202.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 198.
+e 202.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 198.
+neskip found in font on input line 202.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 198.
+e 202.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 198.
+neskip found in font on input line 202.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 198.
+e 202.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 198.
+neskip found in font on input line 202.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 198.
+e 202.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 198.
+neskip found in font on input line 202.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 198.
+e 202.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1370,28 +1382,28 @@ e 198.
 * Language 'Parsi' not available for font 'B Nazanin' with script 'Parsi'.
 *  'Default' language used instead.
 *************************************************
-\g__fontspec_family_BNazanin_int=\count353
+\g__fontspec_family_BNazanin_int=\count355
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font "B Nazanin/I" (it probably doesn't exist).
 .................................................
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 199.
+neskip found in font on input line 203.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 199.
+e 203.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 199.
+neskip found in font on input line 203.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 199.
+e 203.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 199.
+neskip found in font on input line 203.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 199.
+e 203.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 199.
+neskip found in font on input line 203.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 199.
+e 203.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1415,7 +1427,7 @@ e 199.
  (c:/texlive/2018/texmf-dist/tex/xelatex/ptext/ptext.sty
 Package: ptext 2013/04/28 v1.1 A package similar to the lipsum package for the 
 Persian language with 100 paragraphs of the Shahnameh
-\c@pte@count=\count354
+\c@pte@count=\count356
 ) (./article_test.aux)
 \openout1 = `article_test.aux'.
 
@@ -1456,7 +1468,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count355
+\c@section@level=\count357
 )
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
@@ -1466,7 +1478,7 @@ LaTeX Info: Redefining \nameref on input line 17.
 \@outlinefile=\write4
 \openout4 = `article_test.out'.
 
-\c@lstlisting=\count356
+\c@lstlisting=\count358
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 19.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
@@ -1557,9 +1569,9 @@ e 3.
 
 [3]) (./source.py) (./source.py
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 6.
+neskip found in font on input line 4.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 6.
+e 4.
  [4])
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1572,9 +1584,9 @@ neskip found in font on input line 66.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 66.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 75.
+neskip found in font on input line 74.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 75.
+e 74.
 [5]
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 79.
@@ -1602,7 +1614,6 @@ Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 103.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 103.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 103.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
@@ -1612,6 +1623,16 @@ neskip found in font on input line 103.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 103.
 [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 103.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 103.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 103.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 103.
+ [7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./article_test.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
@@ -1620,12 +1641,12 @@ Package rerunfilecheck Info: File `article_test.out' has not changed.
 (rerunfilecheck)             Checksum: 548DAE5054F990287ECFA9F510005421.
  ) 
 Here is how much of TeX's memory you used:
- 24606 strings out of 492970
- 455832 string characters out of 6137299
- 669467 words of memory out of 5000000
- 28266 multiletter control sequences out of 15000+600000
+ 24666 strings out of 492970
+ 456790 string characters out of 6137299
+ 673648 words of memory out of 5000000
+ 28319 multiletter control sequences out of 15000+600000
  538977 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,9n,100p,10474b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,9n,100p,10474b,2019s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on article_test.pdf (6 pages).
+Output written on article_test.pdf (7 pages).
