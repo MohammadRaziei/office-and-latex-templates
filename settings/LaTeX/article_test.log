@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  12 APR 2019 22:53
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  13 APR 2019 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1479,77 +1479,80 @@ LaTeX Info: Redefining \nameref on input line 17.
 \openout4 = `article_test.out'.
 
 \c@lstlisting=\count358
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 19.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 19.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 19.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 19.
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 19.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 19.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 19.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 19.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 20.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 20.
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
-Underfull \vbox (badness 10000) detected at line 24
- []
 
 
-Package xcolor Warning: Incompatible color definition on input line 24.
-
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 24.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 24.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 24.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 24.
-[1
-
-]
-
-Package xcolor Warning: Incompatible color definition on input line 24.
-
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 24.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 24.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 24.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 24.
-[2]
-
-Package xcolor Warning: Incompatible color definition on input line 24.
+Package xcolor Warning: Incompatible color definition on input line 19.
 
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 27.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 27.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 27.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 27.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 27.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 27.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 27.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 28.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 28.
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+Underfull \vbox (badness 10000) detected at line 32
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 32.
+
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 32.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 32.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 32.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 32.
+[1
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 32.
+
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 32.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 32.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 32.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 32.
+[1]
+
+Package xcolor Warning: Incompatible color definition on input line 32.
+
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 35.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 35.
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1560,93 +1563,84 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 32.
+nput line 40.
  (./source.cpp
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 3.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 3.
 
-[3]) (./source.py) (./source.py
+[2]) (./source.py) (./source.py
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 4.
+neskip found in font on input line 6.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 4.
- [4])
+e 6.
+ [3])
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
-Package xcolor Warning: Incompatible color definition on input line 65.
+Package xcolor Warning: Incompatible color definition on input line 73.
 
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 66.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 66.
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 74.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 74.
-[5]
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 79.
+neskip found in font on input line 83.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 79.
+e 83.
+[4]
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 92.
+neskip found in font on input line 87.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 92.
+e 87.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 98.
+neskip found in font on input line 100.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 98.
+e 100.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 106.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 106.
 
-Overfull \hbox (24.79999pt too wide) in paragraph at lines 98--99
+Overfull \hbox (24.79999pt too wide) in paragraph at lines 106--107
 [][]$[][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 [][]
  []
 
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 111.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 111.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
+e 111.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
+neskip found in font on input line 111.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 103.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 103.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+e 111.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (./article_test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `article_test.out' has not changed.
 (rerunfilecheck)             Checksum: 548DAE5054F990287ECFA9F510005421.
  ) 
 Here is how much of TeX's memory you used:
- 24666 strings out of 492970
- 456790 string characters out of 6137299
- 673648 words of memory out of 5000000
- 28319 multiletter control sequences out of 15000+600000
+ 24667 strings out of 492970
+ 456801 string characters out of 6137299
+ 670648 words of memory out of 5000000
+ 28320 multiletter control sequences out of 15000+600000
  538977 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,9n,100p,10474b,2019s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on article_test.pdf (7 pages).
+Output written on article_test.pdf (6 pages).
