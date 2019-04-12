@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  13 APR 2019 00:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  13 APR 2019 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1479,10 +1479,6 @@ LaTeX Info: Redefining \nameref on input line 17.
 \openout4 = `article_test.out'.
 
 \c@lstlisting=\count358
-
-
-Package xcolor Warning: Incompatible color definition on input line 19.
-
 Package xepersian Info: character with height+depth greater than current baseli
 neskip found in font on input line 27.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
@@ -1492,6 +1488,7 @@ neskip found in font on input line 27.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
 e 27.
 LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )

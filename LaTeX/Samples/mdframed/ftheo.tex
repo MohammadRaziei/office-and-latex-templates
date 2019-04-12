@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{mdframed}
+\usepackage{lipsum}
+
+\newtheorem{theo}{Theorem}
+\newenvironment{ftheo}
+  {\begin{mdframed}\begin{theo}}
+  {\end{theo}\end{mdframed}}
+
+\begin{document}
+
+\begin{ftheo}
+\lipsum*[1]
+\end{ftheo}
+
+\begin{theo}
+\lipsum*[1]
+\end{theo}
+
+\end{document}
