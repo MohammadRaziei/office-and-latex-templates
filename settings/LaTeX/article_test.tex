@@ -31,8 +31,6 @@
 	\ptext[1-10]
 \end{shadedtext}
 \ptext[1]
-\verb|\code , \newline |
-
 \section{code}
 	نمونه وارد کردن یک کد:
 
@@ -84,6 +82,23 @@ Use t, c and b options to align the base line of the most top row, the center ro
 \end{Verbatim}
 \end{latin}
 
+\begin{latin}
+\hlineshort
+
+\verb|\code , \newline |
+
+\hlineshort[5cm]
+
+\begin{Verbatim}[breaklines=true]
+The \verb macro is for verbatim text, i.e. to tell LaTeX to interpret the characters without their special meaning. It is only intended to be used for short inline verbatim material, like explaining a LaTeX macro. For longer verbatim material there is the verbatim environment (and several others). The fact that it is printed in tt font is just a side-effect! If you use spaces inside verbatim text you are requesting a verbatim, unstretchable and unbreakable space. The star-version \verb* even prints these spaces using a visual symbol.
+
+Please always use \texttt or \ttfamily for text which should be printed in tt font. The use of \verb simply for the font is a misuse. You can use it for short words without penalty, but for longer text this issues arise. Note that verbatim mode is fragile and \verb doesn't work inside macro arguments.
+
+If you really want to use it try the shortvrbpackage which allows you to use one character for verbatim text, e.g. only |text| instead of  \verb|text|. Then you can exclude the spaces like that:
+
+... verbatim |texts| |that| have ...
+\end{Verbatim}
+\end{latin}	
 
 \section{line and box}
 \hlineshort

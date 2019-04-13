@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  13 APR 2019 07:31
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.1)  13 APR 2019 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1547,9 +1547,9 @@ e 32.
 Package xcolor Warning: Incompatible color definition on input line 32.
 
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 36.
+neskip found in font on input line 34.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 36.
+e 34.
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1560,93 +1560,93 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 41.
+nput line 39.
  (./source.cpp
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 1.
+neskip found in font on input line 3.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 1.
+e 3.
 
 [2]) (./source.py) (./source.py
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 4.
+neskip found in font on input line 6.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 4.
+e 6.
  [3])
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 72.
 
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 75.
+neskip found in font on input line 73.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 75.
+e 73.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 83.
+neskip found in font on input line 82.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 83.
+e 82.
 [4]
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 88.
+neskip found in font on input line 103.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 88.
+e 103.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 101.
+neskip found in font on input line 114.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 101.
+e 114.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 107.
+neskip found in font on input line 114.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 107.
+e 114.
+ [5]
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 116.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 116.
+Package xepersian Info: character with height+depth greater than current baseli
+neskip found in font on input line 122.
+Package xepersian Info: baselineskip changed to that height+depth! on input lin
+e 122.
 
-Overfull \hbox (24.79999pt too wide) in paragraph at lines 107--108
+Overfull \hbox (24.79999pt too wide) in paragraph at lines 122--123
 [][]$[][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 [][]
  []
 
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 112.
+neskip found in font on input line 127.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 112.
+e 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 112.
+neskip found in font on input line 127.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 112.
+e 127.
 Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 112.
+neskip found in font on input line 127.
 Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 112.
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 112.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 112.
-Package xepersian Info: character with height+depth greater than current baseli
-neskip found in font on input line 112.
-Package xepersian Info: baselineskip changed to that height+depth! on input lin
-e 112.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+e 127.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./article_test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `article_test.out' has not changed.
 (rerunfilecheck)             Checksum: 548DAE5054F990287ECFA9F510005421.
  ) 
 Here is how much of TeX's memory you used:
  24667 strings out of 492970
  456801 string characters out of 6137299
- 673648 words of memory out of 5000000
+ 670648 words of memory out of 5000000
  28320 multiletter control sequences out of 15000+600000
  538977 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,9n,100p,10474b,2002s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,9n,100p,10474b,2019s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on article_test.pdf (7 pages).
