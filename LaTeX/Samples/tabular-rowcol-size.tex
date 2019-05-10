@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{array}
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{N}{@{}m{0pt}@{}}
+
+
+\begin{document}
+
+\begin{table}[ht]
+\begin{tabular}{|M{4cm}|M{4cm}|N}
+\hline
+\textbf{Text} & \textbf{Text} &\\[50pt]
+\hline
+text & text&\\[50pt]
+\hline
+\end{tabular}
+\end{table}
+
+\end{document} 

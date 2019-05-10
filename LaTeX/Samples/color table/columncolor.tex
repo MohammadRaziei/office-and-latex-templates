@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage[table]{xcolor}
+
+\newcolumntype{a}{>{\columncolor{yellow}}c}
+\newcolumntype{b}{>{\columncolor{green}}c}
+
+\begin{document}
+
+\begin{tabular}{ a | >{\columncolor{red}}c | l | b }
+  \hline
+  A & B & C & D \\
+  E & F & G & H \\
+  \hline
+\end{tabular}
+
+\end{document}

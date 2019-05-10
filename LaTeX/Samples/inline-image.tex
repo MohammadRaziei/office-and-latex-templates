@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+%\setlength{\parindent}{0pt}% Just for this example
+\begin{document}
+
+Some text \includegraphics[height=3\baselineskip]{logo} (bottom-aligned with baseline)
+
+\medskip
+
+Some text \raisebox{-\height}{%
+  \includegraphics[height=3\baselineskip]{logo}} (top-aligned with baseline)
+
+\medskip
+
+Some text \raisebox{\dimexpr-\height+\baselineskip}{%
+  \includegraphics[height=3\baselineskip]{logo}} (top-aligned with ``baselineskip'')
+
+\end{document}

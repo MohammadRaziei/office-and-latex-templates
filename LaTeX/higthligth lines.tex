@@ -1,0 +1,28 @@
+\documentclass[12pt, a4paper, landscape]{scrartcl}
+\usepackage{color, soul}
+\sethlcolor{red}
+\makeatletter
+\def\SOUL@hlpreamble{%
+    \setul{\dp\strutbox}{\dimexpr\ht\strutbox+\dp\strutbox\relax}%
+    \let\SOUL@stcolor\SOUL@hlcolor
+    \SOUL@stpreamble
+}
+\makeatother
+
+\usepackage[textwidth=10cm]{geometry}
+\usepackage{multicol}
+
+\begin{document}
+\begin{multicols}{3}\raggedcolumns
+  This is some text \hl{of that some part should be highlighted. This part
+    spans multiple lines}, which is easy on a8paper.
+\columnbreak
+
+  This is some text {of that some part should be highlighted. This part
+    spans multiple lines}, which is easy on a8paper.
+\columnbreak
+
+  This is some text \hl{of that some part should be highlighted. This part
+    spans multiple lines}, which is easy on a8paper.
+\end{multicols}
+\end{document}
